@@ -1,0 +1,16 @@
+{
+  "name": "futurice_task",
+  "version": "1.0.0",
+  "description": "This is a simple web-service using the data from GitHub API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Azarakhsh Hamedi",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^15.13.0",
+    "express": "^4.16.3",
+    "require": "^2.4.20"
+  }
+}
