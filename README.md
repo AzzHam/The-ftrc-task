@@ -4,7 +4,11 @@ In this repository you may ssee a simple Node.JS code for retrieving data from G
 
 A simple API is develped to search within GitHub repositories for a specific keyword and return the results as JSON objects.
 
-To use the code, after downloading the repository, navigate to **backend** folder in a terminal (command prompt) and run:
+To use the code, after downloading the repository, navigate to **backend** directory in a terminal (command prompt) and install dependencies using the command:
+```
+npm install
+```
+Then, to run the backend server, run this comand in the teminal in the backend directory:
 ```
 node ./index.js
 ```
