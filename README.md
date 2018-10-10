@@ -26,7 +26,13 @@ keyword: can be anything
 sort_by: can be chosen from 'stars', 'forks', or 'updated'
 order: can be 'asc' for 'ascending' or 'desc' for descending
 ```
-A very simple and uncomplete front end is also developed. the file are available in the **frontend** folder.
+A sample get query will look like:
+```
+127.0.0.1:3000/search/?keyword=ahp&sorted_by=updated&order=asc
+```
+In this version, if the sort_by parameter is missing or is not correct, th default value 'updated' will be use. similarly, if the order parameter is missing or not correct, the defailt value 'asc' will be used.
+
+A very simple and incomplete front end is also developed. the file are available in the **frontend** folder.
 While the server is runnign, the front end can be seen in the URL
 ```
 127.0.0.1:3000/
